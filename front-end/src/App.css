@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #333;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  color: black;
+  min-height: 100vh;
+}
+
+.dark {
+  background-color: #121212;
+  color: #fff;
+}
+
+.app-container > main {
+  flex: 1;
+}
+
+/* Default light mode */
+/* Default light mode */
+body {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+/* Dark mode rules */
+.dark {
+  background-color: #121212;
+  color: white;
+}
+nav {
+  background-color: #f8f8f8;
+}
+
+.dark nav {
+  background-color: #1f1f1f;
+}
+
+footer {
+  background-color: #f8f8f8;
+}
+
+.dark footer {
+  background-color: #1f1f1f;
+}
+
+main {
+  padding: 20px;
+  background-color: white;
+}
+
+.dark main {
+  background-color: #181818;
+}
+/* Remove duplicate body styles */
+body {
+  margin: 0;
+}
+/* Consolidate dark mode styles */
+.dark a,
+.dark nav,
+.dark nav h1 a,
+.dark nav ul li a,
+.dark footer,
+.dark .signup-container,
+.dark .login-container,
+.dark .about-container,
+.dark .about-header,
+.dark .about-subheader,
+.dark .about-description,
+.dark .greeting,
+.dark .card,
+.dark .card-form,
+.dark .hamburger {
+  background-color: #1f1f1f;
+  color: white;
+}
+
+.dark main {
+  background-color: #181818;
+}

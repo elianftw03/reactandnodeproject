@@ -1,0 +1,52 @@
+.home-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.home-actions {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.home-button {
+  background-color: #e22f2f;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.home-button:hover {
+  background-color: #b92424;
+}
+
+.home-button.secondary {
+  background-color: #fff;
+  color: #e22f2f;
+  border: 2px solid #e22f2f;
+}
+
+.home-button.secondary:hover {
+  background-color: #fceaea;
+}
+
+.home-features {
+  margin-top: 3rem;
+  text-align: left;
+}
+
+.home-features h2 {
+  margin-bottom: 1rem;
+}
+
+.home-features ul {
+  list-style: disc inside;
+  padding-left: 1rem;
+}
