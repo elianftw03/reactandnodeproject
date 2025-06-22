@@ -36,7 +36,7 @@
    cd back-end
    ```
 
-2. להתקין תלויות:
+2. להתקין dependencies:
    ```bash
    npm install
    ```
@@ -59,7 +59,7 @@
    cd front-end
    ```
 
-2. להתקין תלויות:
+2. להתקין dependencies:
    ```bash
    npm install
    ```
